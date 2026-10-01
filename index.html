@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="PC ThegameVerse — подбор и просмотр готовых сборок персональных компьютеров"
+    >
+
+    <title>PC ThegameVerse — сборки ПК</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="page">
+
+<header class="header">
+    <div class="container header__container">
+
+        <a class="logo" href="#">
+            <span class="logo__icon">TV</span>
+            <span class="logo__text">PC ThegameVerse</span>
+        </a>
+
+        <nav class="navigation" aria-label="Основная навигация">
+            <ul class="navigation__list">
+                <li class="navigation__item">
+                    <a class="navigation__link navigation__link--active" href="#home">
+                        Главная
+                    </a>
+                </li>
+
+                <li class="navigation__item">
+                    <a class="navigation__link" href="#builds">
+                        Сборки
+                    </a>
+                </li>
+
+                <li class="navigation__item">
+                    <a class="navigation__link" href="#advantages">
+                        Преимущества
+                    </a>
+                </li>
+
+                <li class="navigation__item">
+                    <a class="navigation__link" href="#contacts">
+                        Контакты
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <button
+            class="theme-toggle"
+            type="button"
+            aria-label="Переключить тему"
+        >
+            ☀
+        </button>
+
+        <button
+            class="burger"
+            type="button"
+            aria-label="Открыть меню"
+        >
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+        </button>
+
+        <a class="header__login" href="#">
+            Войти
+        </a>
+
+    </div>
+</header>
+
+<main>
+
+    <section class="hero" id="home">
+        <div class="container hero__container">
+
+            <div class="hero__content">
+                <p class="hero__label">
+                    ПК для любых задач
+                </p>
+
+                <h1 class="hero__title">
+                    Собери компьютер
+                    <span class="hero__title-accent">своей мечты</span>
+                </h1>
+
+                <p class="hero__description">
+                    Подбирайте готовые сборки ПК для игр, работы, учёбы
+                    и профессиональных задач. Сбалансированные комплектующие
+                    и оптимальное соотношение цены и производительности.
+                </p>
+
+                <div class="hero__actions">
+                    <a class="button button--primary" href="#builds">
+                        Смотреть сборки
+                    </a>
+
+                    <a
+                        class="button button--secondary js-open-modal"
+                        href="#"
+                    >
+                        Оставить заявку
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero__visual">
+                <div class="computer">
+                    <div class="computer__case">
+                        <div class="computer__glass">
+                            <div class="computer__fan computer__fan--one"></div>
+                            <div class="computer__fan computer__fan--two"></div>
+                            <div class="computer__fan computer__fan--three"></div>
+                        </div>
+
+                        <div class="computer__panel"></div>
+                    </div>
+
+                    <div class="computer__stand"></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="builds" id="builds">
+        <div class="container">
+
+            <div class="section-heading">
+                <p class="section-heading__label">
+                    Каталог
+                </p>
+
+                <h2 class="section-heading__title">
+                    Популярные сборки
+                </h2>
+
+                <p class="section-heading__description">
+                    Выберите готовую конфигурацию под свои задачи
+                    или используйте её как основу для собственного ПК.
+                </p>
+            </div>
+
+            <div class="builds__grid">
+
+                <article class="build-card build-card--popular">
+                    <div class="build-card__image">
+                        <span class="build-card__badge">Хит</span>
+                        <img
+                            class="build-card__pc"
+                            src="images/gaming_start.png"
+                            alt="Gaming Start"
+                        >
+                    </div>
+
+                    <div class="build-card__content">
+                        <h3 class="build-card__title">
+                            Gaming Start
+                        </h3>
+
+                        <p class="build-card__description">
+                            Отличный вариант для Full HD-гейминга
+                            и повседневных задач.
+                        </p>
+
+                        <ul class="build-card__specifications">
+                            <li>Ryzen 5 5600</li>
+                            <li>RTX 4060</li>
+                            <li>16 GB RAM</li>
+                        </ul>
+
+                        <div class="build-card__footer">
+                            <span class="build-card__price">
+                                89 990 ₽
+                            </span>
+
+                            <a class="build-card__button" href="#">
+                                Подробнее
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="build-card">
+                    <div class="build-card__image">
+                        <img
+                            class="build-card__pc"
+                            src="images/gaming_pro.png"
+                            alt="Gaming Start"
+                        >
+                    </div>
+
+                    <div class="build-card__content">
+                        <h3 class="build-card__title">
+                            Gaming Pro
+                        </h3>
+
+                        <p class="build-card__description">
+                            Производительная сборка для современных
+                            игр с высоким FPS.
+                        </p>
+
+                        <ul class="build-card__specifications">
+                            <li>Ryzen 7 7700</li>
+                            <li>RTX 4070 Super</li>
+                            <li>32 GB RAM</li>
+                        </ul>
+
+                        <div class="build-card__footer">
+                            <span class="build-card__price">
+                                159 990 ₽
+                            </span>
+
+                            <a class="build-card__button" href="#">
+                                Подробнее
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="build-card">
+                    <div class="build-card__image">
+                        <img
+                            class="build-card__pc"
+                            src="images/ultra_gamer.png"
+                            alt="Gaming Start"
+                        >
+                    </div>
+
+                    <div class="build-card__content">
+                        <h3 class="build-card__title">
+                            Ultra Gamer
+                        </h3>
+
+                        <p class="build-card__description">
+                            Максимальная производительность
+                            для требовательных игр.
+                        </p>
+
+                        <ul class="build-card__specifications">
+                            <li>Ryzen 7 7800X3D</li>
+                            <li>RTX 4080 Super</li>
+                            <li>32 GB RAM</li>
+                        </ul>
+
+                        <div class="build-card__footer">
+                            <span class="build-card__price">
+                                239 990 ₽
+                            </span>
+
+                            <a class="build-card__button" href="#">
+                                Подробнее
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="build-card">
+                    <div class="build-card__image">
+                        <img
+                            class="build-card__pc"
+                            src="images/work_station.png"
+                            alt="Gaming Start"
+                        >
+                    </div>
+
+                    <div class="build-card__content">
+                        <h3 class="build-card__title">
+                            Work Station
+                        </h3>
+
+                        <p class="build-card__description">
+                            Мощная система для программирования,
+                            3D-моделирования и монтажа.
+                        </p>
+
+                        <ul class="build-card__specifications">
+                            <li>Core i7-14700K</li>
+                            <li>RTX 4070 Ti</li>
+                            <li>64 GB RAM</li>
+                        </ul>
+
+                        <div class="build-card__footer">
+                            <span class="build-card__price">
+                                219 990 ₽
+                            </span>
+
+                            <a class="build-card__button" href="#">
+                                Подробнее
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="build-card">
+                    <div class="build-card__image">
+                        <img
+                            class="build-card__pc"
+                            src="images/student_pc.png"
+                            alt="Gaming Start"
+                        >
+                    </div>
+
+                    <div class="build-card__content">
+                        <h3 class="build-card__title">
+                            Student PC
+                        </h3>
+
+                        <p class="build-card__description">
+                            Доступный компьютер для учёбы,
+                            офиса и мультимедиа.
+                        </p>
+
+                        <ul class="build-card__specifications">
+                            <li>Core i3-14100</li>
+                            <li>RTX 3050</li>
+                            <li>16 GB RAM</li>
+                        </ul>
+
+                        <div class="build-card__footer">
+                            <span class="build-card__price">
+                                64 990 ₽
+                            </span>
+
+                            <a class="build-card__button" href="#">
+                                Подробнее
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="build-card">
+                    <div class="build-card__image">
+                        <img
+                            class="build-card__pc"
+                            src="images/creator_pro.png"
+                            alt="Gaming Start"
+                        >
+                    </div>
+
+                    <div class="build-card__content">
+                        <h3 class="build-card__title">
+                            Creator Pro
+                        </h3>
+
+                        <p class="build-card__description">
+                            Рабочая станция для дизайнеров,
+                            разработчиков и создателей контента.
+                        </p>
+
+                        <ul class="build-card__specifications">
+                            <li>Core i9-14900K</li>
+                            <li>RTX 4090</li>
+                            <li>64 GB RAM</li>
+                        </ul>
+
+                        <div class="build-card__footer">
+                            <span class="build-card__price">
+                                319 990 ₽
+                            </span>
+
+                            <a class="build-card__button" href="#">
+                                Подробнее
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Галерея -->
+
+    <section class="gallery" id="gallery">
+        <div class="container">
+
+            <div class="section-heading">
+                <p class="section-heading__label">
+                    Галерея
+                </p>
+
+                <h2 class="section-heading__title">
+                    Наши сборки
+                </h2>
+
+                <p class="section-heading__description">
+                    Выберите изображение компьютера, чтобы посмотреть его крупнее.
+                </p>
+            </div>
+
+            <div class="gallery__main">
+                <img
+                    class="gallery__main-image"
+                    src="images/gaming_start.png"
+                    alt="Gaming Start"
+                >
+            </div>
+
+            <div class="gallery__thumbs">
+
+                <button
+                    class="gallery__thumb active"
+                    type="button"
+                >
+                    <img
+                        src="images/gaming_start.png"
+                        alt="Gaming Start"
+                        data-full="images/gaming_start.png"
+                    >
+                </button>
+
+                <button
+                    class="gallery__thumb"
+                    type="button"
+                >
+                    <img
+                        src="images/gaming_pro.png"
+                        alt="Gaming Pro"
+                        data-full="images/gaming_pro.png"
+                    >
+                </button>
+
+                <button
+                    class="gallery__thumb"
+                    type="button"
+                >
+                    <img
+                        src="images/ultra_gamer.png"
+                        alt="Ultra Gamer"
+                        data-full="images/ultra_gamer.png"
+                    >
+                </button>
+
+                <button
+                    class="gallery__thumb"
+                    type="button"
+                >
+                    <img
+                        src="images/work_station.png"
+                        alt="Work Station"
+                        data-full="images/work_station.png"
+                    >
+                </button>
+
+                <button
+                    class="gallery__thumb"
+                    type="button"
+                >
+                    <img
+                        src="images/student_pc.png"
+                        alt="Student PC"
+                        data-full="images/student_pc.png"
+                    >
+                </button>
+
+                <button
+                    class="gallery__thumb"
+                    type="button"
+                >
+                    <img
+                        src="images/creator_pro.png"
+                        alt="Creator Pro"
+                        data-full="images/creator_pro.png"
+                    >
+                </button>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="advantages" id="advantages">
+        <div class="container">
+
+            <div class="section-heading">
+                <p class="section-heading__label">
+                    Почему мы?
+                </p>
+
+                <h2 class="section-heading__title">
+                    Преимущества PC ThegameVerse
+                </h2>
+            </div>
+
+            <div class="advantages__grid">
+
+                <article class="advantage">
+                    <div class="advantage__icon">
+                        ✓
+                    </div>
+
+                    <h3 class="advantage__title">
+                        Сбалансированные сборки
+                    </h3>
+
+                    <p class="advantage__description">
+                        Все комплектующие подобраны таким образом,
+                        чтобы эффективно работать вместе.
+                    </p>
+                </article>
+
+                <article class="advantage">
+                    <div class="advantage__icon">
+                        ₽
+                    </div>
+
+                    <h3 class="advantage__title">
+                        Выгодная цена
+                    </h3>
+
+                    <p class="advantage__description">
+                        Подбираем конфигурации с оптимальным
+                        соотношением стоимости и производительности.
+                    </p>
+                </article>
+
+                <article class="advantage">
+                    <div class="advantage__icon">
+                        ★
+                    </div>
+
+                    <h3 class="advantage__title">
+                        Современные комплектующие
+                    </h3>
+
+                    <p class="advantage__description">
+                        Используем актуальные процессоры, видеокарты,
+                        накопители и оперативную память.
+                    </p>
+                </article>
+
+                <article class="advantage">
+                    <div class="advantage__icon">
+                        ⚡
+                    </div>
+
+                    <h3 class="advantage__title">
+                        Быстрый подбор
+                    </h3>
+
+                    <p class="advantage__description">
+                        Найдите подходящую сборку за несколько минут
+                        без необходимости разбираться во всех деталях.
+                    </p>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FAQ -->
+
+    <section class="faq" id="faq">
+        <div class="container">
+
+            <div class="section-heading">
+                <p class="section-heading__label">
+                    FAQ
+                </p>
+
+                <h2 class="section-heading__title">
+                    Часто задаваемые вопросы
+                </h2>
+            </div>
+
+            <div class="faq__list">
+
+                <div class="faq__item">
+                    <button
+                        class="faq__question"
+                        type="button"
+                    >
+                        <span>
+                            Можно ли изменить комплектующие?
+                        </span>
+
+                        <span class="faq__icon">
+                            +
+                        </span>
+                    </button>
+
+                    <div class="faq__answer">
+                        <p>
+                            Да, выбранную сборку можно использовать как основу
+                            и изменить необходимые комплектующие.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq__item">
+                    <button
+                        class="faq__question"
+                        type="button"
+                    >
+                        <span>
+                            Для каких задач подходят сборки?
+                        </span>
+
+                        <span class="faq__icon">
+                            +
+                        </span>
+                    </button>
+
+                    <div class="faq__answer">
+                        <p>
+                            На сайте представлены сборки для игр, учёбы,
+                            программирования, работы и создания контента.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq__item">
+                    <button
+                        class="faq__question"
+                        type="button"
+                    >
+                        <span>
+                            Как оставить заявку?
+                        </span>
+
+                        <span class="faq__icon">
+                            +
+                        </span>
+                    </button>
+
+                    <div class="faq__answer">
+                        <p>
+                            Нажмите кнопку «Оставить заявку» и заполните
+                            форму обратной связи.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</main>
+
+
+<footer class="footer" id="contacts">
+    <div class="container footer__container">
+
+        <div class="footer__brand">
+            <a class="logo logo--footer" href="#">
+                <span class="logo__icon">TV</span>
+                <span class="logo__text">PC ThegameVerse</span>
+            </a>
+
+            <p class="footer__description">
+                Сервис для подбора современных сборок
+                персональных компьютеров.
+            </p>
+        </div>
+
+        <div class="footer__column">
+            <h3 class="footer__title">
+                Навигация
+            </h3>
+
+            <ul class="footer__list">
+                <li>
+                    <a class="footer__link" href="#home">Главная</a>
+                </li>
+
+                <li>
+                    <a class="footer__link" href="#builds">Сборки</a>
+                </li>
+
+                <li>
+                    <a class="footer__link" href="#advantages">Преимущества</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer__column">
+            <h3 class="footer__title">
+                Контакты
+            </h3>
+
+            <ul class="footer__list">
+                <li>
+                    <a class="footer__link" href="mailto:info@pcforge.ru">
+                        info@pcthegameverse.ru
+                    </a>
+                </li>
+
+                <li>
+                    <a class="footer__link" href="tel:+79990000000">
+                        +7 (999) 999-99-99
+                    </a>
+                </li>
+
+                <li>
+                    <span class="footer__text">
+                        Ростов, Россия
+                    </span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer__column">
+            <h3 class="footer__title">
+                Социальные сети
+            </h3>
+
+            <div class="social">
+                <a class="social__link" href="#" aria-label="VK">
+                    VK
+                </a>
+
+                <a class="social__link" href="#" aria-label="Telegram">
+                    TG
+                </a>
+
+                <a class="social__link" href="#" aria-label="YouTube">
+                    YT
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer__bottom">
+        <div class="container">
+            <p class="footer__copyright">
+                © 2026 PC ThegameVerse. Все права защищены.
+            </p>
+        </div>
+    </div>
+</footer>
+
+
+<!-- Модальное окно -->
+
+<div
+    class="modal"
+    id="feedbackModal"
+    aria-hidden="true"
+>
+    <div class="modal__content">
+
+        <button
+            class="modal__close"
+            type="button"
+            aria-label="Закрыть"
+        >
+            ×
+        </button>
+
+        <h2 class="modal__title">
+            Оставить заявку
+        </h2>
+
+        <form class="modal__form">
+
+            <label class="modal__label">
+                Имя
+
+                <input
+                    class="modal__input"
+                    type="text"
+                    name="name"
+                    placeholder="Введите ваше имя"
+                    required
+                >
+            </label>
+
+            <label class="modal__label">
+                Телефон
+
+                <input
+                    class="modal__input"
+                    type="tel"
+                    name="phone"
+                    placeholder="+7 (___) ___-__-__"
+                    required
+                >
+            </label>
+
+            <button
+                class="button button--primary"
+                type="submit"
+            >
+                Отправить заявку
+            </button>
+
+        </form>
+
+    </div>
+</div>
+
+
+<!-- Кнопка "Наверх" -->
+
+<button
+    class="to-top"
+    type="button"
+    aria-label="Наверх"
+>
+    ↑
+</button>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
